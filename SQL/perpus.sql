@@ -52,3 +52,8 @@ SET tahun_terbit = '2023',
 WHERE id_buku = '1';
 
 SELECT * FROM kompre.buku;
+
+---
+
+DELETE FROM kompre.buku
+WHERE (`id_buku` = '5');
