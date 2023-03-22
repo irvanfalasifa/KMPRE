@@ -57,3 +57,6 @@ SELECT * FROM kompre.buku;
 
 DELETE FROM kompre.buku
 WHERE (`id_buku` = '5');
+
+DELETE FROM kompre.buku
+WHERE (`id_buku` = '3');
