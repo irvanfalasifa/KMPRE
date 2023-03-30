@@ -5,7 +5,7 @@ for i in range(5):
 print("----------")
 
 #looping while
-x = 5
+x = float(input("Masukkan nilai : "))
 while x > 0:
     print(x)
     x=x-1
